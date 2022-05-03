@@ -1,0 +1,49 @@
+.App {
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+
+.body-img {
+    background-image: url("https://i.pinimg.com/originals/8c/0b/b2/8c0bb2d039bd3dbe8e92eb36abeff6cd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.App > div {
+    margin-right: 50px;
+
+}
+
+.active-filter {
+    background-color: #f5bf0e;
+}
+
+.is-done {
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.error {
+    border: 2px solid red;
+    outline: none;
+}
+
+.error-message {
+    color: red
+}
+
+.buttonDel {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.todoList {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+
